@@ -22,6 +22,7 @@ public class OOPsConcept {
         //creating object of Child Class.
         Child child=new Child();
         child.showFamily("meshram","buddhist","sneha");
+        child.showFamily(1);
 
         //creating object for Badminton class by importing package myPackage
         Badminton badminton=new Badminton();
