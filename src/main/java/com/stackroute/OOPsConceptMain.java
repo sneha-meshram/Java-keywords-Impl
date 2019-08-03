@@ -2,7 +2,7 @@ package com.stackroute;
 
 import com.stackroute.myPackage.Badminton;
 
-public class OOPsConcept {
+public class OOPsConceptMain {
 
     public static void main(String[] args) {
 
@@ -32,6 +32,13 @@ public class OOPsConcept {
         NestedClass.innerClass nestedobj=new NestedClass.innerClass();
         System.out.println("Nested class value ");
         nestedobj.display();
+
+        //creating instance of Car class.
+        CarDemo carDemo=new CarDemo("company","fuel","name");
+        carDemo.carComapny();
+        carDemo.carFuel();
+        carDemo.carName();
+
     }
 
 }
