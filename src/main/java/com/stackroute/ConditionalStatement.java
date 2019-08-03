@@ -38,5 +38,4 @@ public class ConditionalStatement {
             System.out.println("values of array are are" +arr[i]);
         }
     }
-
 }
