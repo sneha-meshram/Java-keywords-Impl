@@ -1,5 +1,6 @@
 package com.stackroute;
 
+//this is the base class of Child Class.
 public class Parent {
 
     String religion;
