@@ -14,6 +14,8 @@ public class OOPsConcept {
         crow.showColor("brown");
         crow.showData();
 
+        Child child=new Child();
+        child.showFamily("meshram","buddhist","sneha");
     }
 
 }
