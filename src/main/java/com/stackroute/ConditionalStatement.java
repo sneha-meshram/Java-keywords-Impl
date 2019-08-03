@@ -28,6 +28,15 @@ public class ConditionalStatement {
 
             number++;
         }
+
+        //print array using loop.
+
+        int length;
+        int[] arr={2,3,4,5};
+        length= arr.length;
+        for(int i=0;i<length;i++){
+            System.out.println("values of array are are" +arr[i]);
+        }
     }
 
 }
