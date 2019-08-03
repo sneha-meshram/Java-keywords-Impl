@@ -11,6 +11,5 @@ public class Child extends Parent {
         System.out.println("the name of a child is "+name);
         System.out.println("the family name is " +title);
         System.out.println("the religion is " +religion);
-
     }
 }
